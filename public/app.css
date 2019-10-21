@@ -4,6 +4,8 @@
 
 #delete {
   display: inline;
+  padding: 0;
+  background: #fff;
 }
 
 #pic-spacing {
@@ -16,6 +18,11 @@
 
 #description-spacing {
   margin-bottom: 2.5em;
+}
+
+#edit-form {
+  margin: 0;
+  background: #fff;
 }
 
 form {

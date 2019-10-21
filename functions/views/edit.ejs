@@ -4,6 +4,7 @@
   <div class="ui huge header">Edit <%= blog.title %></div>
   <form
     class="ui form"
+    id="edit-form"
     action="/blogs/<%= blog._id %>?_method=PUT"
     method="POST"
   >
