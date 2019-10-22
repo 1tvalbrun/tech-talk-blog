@@ -32,17 +32,4 @@ mongoose
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server started on port ${port}`));
 
-// app.get('/timestamp', (req, res) => {
-//   res.send(`${Date.now()}`);
-// });
-
-// app.get('/timestamp-cached', (req, res) => {
-//   res.set('Cache-control', 'public, max-age=300, s-maxage=600');
-//   res.send(`${Date.now()}`);
-// });
-
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
 exports.app = functions.https.onRequest(app);
-300;
